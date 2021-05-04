@@ -9,6 +9,6 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public String hello(Model model) {
         model.addAttribute("message", "Thymeleaf");
-        return "helloworld";
+        return "add-css-js-demo";
     }
 }
